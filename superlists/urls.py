@@ -19,5 +19,6 @@ from super import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path(r'index/',views.index)
+    path(r'index/', views.index),
+    path(r'', views.home_page),
 ]
